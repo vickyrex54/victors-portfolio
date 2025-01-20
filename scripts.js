@@ -26,7 +26,7 @@ document.querySelectorAll(".card").forEach(card => {
     }
   });
   // Typewriter effect
-  const heroText = "Welcome to the Future of Web Design";
+  const heroText = "LETS GET STARTED";
   let index = 0;
  
   function typeWriter() {
@@ -37,7 +37,7 @@ document.querySelectorAll(".card").forEach(card => {
     }
   }
  
-  window.onload = typeWriter;
+   typeWriter();
 
   //navbar-toggle, navbar-menue and them-toggle
   document.addEventListener('DOMContentLoaded', function() {
