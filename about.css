@@ -27,6 +27,11 @@
   header p {
     font-size: 1.2rem;
   }
+
+  .a{
+    text-align: left;
+    color: black;
+  }
   
   .about-container {
     max-width: 1200px;
