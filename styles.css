@@ -18,8 +18,9 @@
         text-align: center;
         padding: 70px ;
         color: white;
+        margin-top: 50px;
    
-    }
+    } 
    
     footer{
         text-align: center;
@@ -29,7 +30,7 @@
     }
 
     header {
-        background: linear-gradient(to right, #007BFF, #6610f2);
+      background: linear-gradient(to right, #007BFF, #6610f2);
       }
    
       footer {
