@@ -26,7 +26,7 @@ document.querySelectorAll(".card").forEach(card => {
     }
   });
   // Typewriter effect
-  const heroText = "LETS GET STARTED";
+  const heroText = "welcome";
   let index = 0;
  
   function typeWriter() {

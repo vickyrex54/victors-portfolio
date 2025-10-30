@@ -3,56 +3,207 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services</title>
+  <title>impact~design</title>
   <link rel="stylesheet" href="services.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
 </head>
 <body>
-  <header>
-    <a href="index.html" class="a"><i class="fa fa-home"></i>Home</a>
-    <h1>Our Services</h1>
-    <p>Explore the wide range of services we offer to help you achieve your goals.</p>
-  </header>
+ 
 
   <main class="services-container">
     <div class="services-grid">
       <!-- Service 1 -->
       <div class="service-card">
-        <img src="add.jpg" alt="Web Development">
-        <h3>Web Development</h3>
-        <p>We create modern, responsive, and user-friendly websites tailored to your business needs.</p>
-        <a href="contact.html">Learn More</a>
+        <img src="IMG-20250906-WA0062.jpg" alt="Web Development">
+        
+        <a href="" id="contact">CONTACT~US</a>
       </div>
 
       <!-- Service 2 -->
       <div class="service-card">
-        <img src="FACUP.jpg" alt="App Development">
-        <h3>App Development</h3>
-        <p>Build powerful mobile applications to engage your audience on the go.</p>
-        <a href="contact.html">Learn More</a>
+        <img src="IMG-20250906-WA0066.jpg" alt="App Development">
+        
+        <a href="" id="contact2">CONTACT~US</a>
       </div>
 
       <!-- Service 3 -->
       <div class="service-card">
-        <img src="africanchild.jpg" alt="Custom Solutions">
-        <h3>Custom Solutions</h3>
-        <p>Need a tailored solution? We offer custom software to meet your unique requirements.</p>
-        <a href="contact.html">Learn More</a>
+        <img src="IMG-20250906-WA00660001.jpg" alt="Custom Solutions">
+       
+       <a href=""  id="contact3">CONTACT~US</a>
       </div>
 
       <!-- Service 4 -->
       <div class="service-card">
-        <img src="birds.jpg" alt="Consultation Services">
-        <h3>Consultation Services</h3>
-        <p>Get expert guidance and strategies to enhance your digital presence.</p>
-        <a href="contact.html">Learn More</a>
+        <img src="IMG-20250906-WA0060.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact3">CONTACT~US</a>
+      </div>
+      <!-- Service 5 -->
+      <div class="service-card">
+        <img src="IMG-20251029-WA0001.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact4">CONTACT~US</a>
+      </div>
+      <!-- Service 6 -->
+      <div class="service-card">
+        <img src="IMG-20251029-WA0005.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact5">CONTACT~US</a>
+      </div>
+      <!-- Service 7-->
+      <div class="service-card">
+        <img src="IMG-20251029-WA0008.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact6">CONTACT~US</a>
+      </div>
+      <!-- Service 8-->
+      <div class="service-card">
+        <img src="IMG-20251029-WA0009.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact7">CONTACT~US</a>
+      </div>
+      <!-- Service 9-->
+      <div class="service-card">
+        <img src="IMG-20250814-WA0075.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact8">CONTACT~US</a>
+      </div>
+      <!-- Service 10-->
+      <div class="service-card">
+        <img src="IMG-20250814-WA0073.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact9">CONTACT~US</a>
+      </div>
+
+      <!-- Service 11-->
+      <div class="service-card">
+        <img src="IMG-20250814-WA0074.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact10">CONTACT~US</a>
+      </div>
+      <!-- Service 12-->
+      <div class="service-card">
+        <img src="IMG-20250814-WA0069.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact11">CONTACT~US</a>
+      </div>
+      <!-- Service 13-->
+      <div class="service-card">
+        <img src="IMG-20250814-WA0070.jpg" alt="Consultation Services">
+        
+        <a href="" id="contact12">CONTACT~US</a>
       </div>
     </div>
   </main>
 
   <footer>
-    <p>@victor; 2025 BUILD. All rights reserved.</p>
+    <p>@victor~+; 2025 BUILD. All rights reserved.</p>
   </footer>
 </body>
 </html>
+
+
+
+
+<script>
+ 
+const placeorder = document.getElementById('contact');
+placeorder.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+
+
+
+const place2 = document.getElementById('contact2');
+place2.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+
+
+
+const place3 = document.getElementById('contact3');
+place3.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place4 = document.getElementById('contact4');
+place4.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place5 = document.getElementById('contact5');
+place5.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place6 = document.getElementById('contact6');
+place6.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+
+const place7 = document.getElementById('contact7');
+place7.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place8 = document.getElementById('contact8');
+place8.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place9 = document.getElementById('contact9');
+place9.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+
+const place10 = document.getElementById('contact10');
+place7.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place11 = document.getElementById('contact11');
+place11.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+const place12 = document.getElementById('contact12');
+place12.addEventListener('click', ()=>{
+  let message = 'GOOD Day Doctor i would like to book an appointment :     if u dont get a reply to this message in 3minutes call the whatsapp number \n';
+   const whatsappURL = `https://api.whatsapp.com/send?phone=+2348149435269&text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappURL, 'messageWindow');
+})
+
+</script>
+
+
+
+
